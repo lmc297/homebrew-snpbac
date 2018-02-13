@@ -21,11 +21,11 @@ class Snpbac < Formula
   bottle :unneeded 
    
   def install
-    bin.install "snpbac", "make_snpbac_infile.py"
-    ENV.prepend_create_path "PYTHONPATH", libexec/"lib/python2.7/site-packages"
-    ENV.prepend "PYTHONPATH", libexec, ':'
-    ENV.prepend "PYTHONPATH", libexec/"src", ':'
-    puts "done with env"
+    bin.install "snpbac", "make_snpbac_infile.py", "mapping.py", "__init__.py", "call_variants.py", "recombination.py", "snp_matrix.py"
+    #ENV.prepend_create_path "PYTHONPATH", libexec/"lib/python2.7/site-packages"
+    #ENV.prepend "PYTHONPATH", libexec, ':'
+    #ENV.prepend "PYTHONPATH", libexec/"src", ':'
+    #puts "done with env"
     # for python_package in ["biopython"]
     #resource("biopython").stage do
     #  system "python", *Language::Python.setup_install_args(libexec)
