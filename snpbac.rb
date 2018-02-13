@@ -1,7 +1,7 @@
 class Snpbac < Formula
   desc "SNP and variant calling pipeline for bacteria"
   url "https://github.com/lmc297/SNPBac/raw/master/archive/snpbac-1.0.0.tar.gz"
-  sha256 "2135ebf849427e3c4c03a0d7d84d9c0831e43c21f90efd357b5f57cc83558a69"
+  sha256 "eededb0e2b5a52cda60828daa18d4954a80e2c03a63a287448d985ce5a1a462b"
   version "1.0.0"
   
   depends_on "python3"
