@@ -4,7 +4,7 @@ class Snpbac < Formula
   sha256 "2135ebf849427e3c4c03a0d7d84d9c0831e43c21f90efd357b5f57cc83558a69"
   version "1.0.0"
   
-  depends_on :python3
+  depends_on "python3"
   depends_on "samtools"
   depends_on "freebayes"
   depends_on "vcftools"
