@@ -1,7 +1,7 @@
 class Snpbac < Formula
   desc "SNP and variant calling pipeline for bacteria"
   url "https://github.com/lmc297/SNPBac/raw/master/archive/snpbac-1.0.0.tar.gz"
-  sha256 "eededb0e2b5a52cda60828daa18d4954a80e2c03a63a287448d985ce5a1a462b"
+  sha256 "7b4df86ad7e9859b902032b013ba21ebcfd4b3ece71d1f695fbc38cadbc1faf4"
   version "1.0.0"
   
   depends_on "python"
@@ -13,10 +13,10 @@ class Snpbac < Formula
   depends_on "bwa"
   depends_on "bowtie2"
   
-  resource "biopython" do
-    url "http://biopython.org/DIST/biopython-1.69.tar.gz"
-    sha256 "169ffa90c3d3ec5678c7a5c99501c0cfeb54c40ca51a619ce6cee5026d3403eb"
-  end
+  #resource "biopython" do
+  #  url "http://biopython.org/DIST/biopython-1.69.tar.gz"
+  #  sha256 "169ffa90c3d3ec5678c7a5c99501c0cfeb54c40ca51a619ce6cee5026d3403eb"
+  #end
   
   bottle :unneeded 
    
