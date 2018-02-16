@@ -12,6 +12,7 @@ class Snpbac < Formula
   depends_on "gubbins"
   depends_on "bwa"
   depends_on "bowtie2"
+  depends_on "raxml"
   
   bottle :unneeded 
    
